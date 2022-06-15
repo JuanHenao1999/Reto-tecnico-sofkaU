@@ -1,2 +1,9 @@
 # Reto-tecnico-sofkaU
-cualquier cosa
+Se crea reto tecnico utilizando visual studio code y python, seguido de ello se crea una variable llamada total acumulado, luego se crea unos breves espacios con la función print y se hace el titulo,
+ HAZTE MILLONARIO SI CONOCES NUESTRO PAIS, el jugador para iniciar el juego debe de escribir la palabra SI  "EN MAYUSCULAS", si el jugador decide no seguir en el juego este le dara como acumulado de (0),  la dinamica del juego de basa en que tanto conoce el jugador nuestro pais en los siguientes campos:Ciudades, Futbol, Presidentes, Historia y Personajes, cada pregunta se va a elegir aleatoriamente de 5 preguntas con 4 respuestas diferestes para un total de 25 preguntas dinamicas, para crear estas utilice la siguiente variable 
+ Ejemplo:(categoriaciudades: list[str], seguido de ello se crea una (variable) Ejemplo: respuesciudades: list[str] y asi con cada una de las categorias, cada una con 5 respuetas siendo solo una valida, utilize (class) Opciones para poner la distitas respuestas compuestas por " A,B,C,D, con la (variable) Ejemplo: opcionesciudades: list[str]. se crea la (function) menu: () -> str "SI", se pone (variable) totalAcumulado: int "0" para dar inicio al juego desde 0 para llegar a $ 500000 que es el maximo a ganar si el jugador contesta correctamente, se utiliza la (function)
+print(*values: object, sep: str | None = ..., end: str | None = ..., file: SupportsWrite[str] | None = ..., flush: Literal[False] = ...) -> None
+
+print(*values: object, sep: str | None = ..., end: str | None = ..., file: _SupportsWriteAndFlush[str] | None = ..., flush: bool) -> None cabe de aclarar que si el jugador no llega a responder todas las preguntas correctamnete no tendra el acumulado mayor.
+
+Att; @JuanHenao 
